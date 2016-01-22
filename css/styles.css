@@ -1,0 +1,248 @@
+body{
+  position: relative;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+nav {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-image:url("../images/payments-banner-graphic.png");
+  background-size: 1300px 500px;
+  background-repeat: no-repeat;
+  margin-top:-18px;
+}
+.listes {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+nav ul {
+  display:inline-block;
+  color: white;
+}
+nav .firstlist ul li {
+  color: white;
+  display: inline-block;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  vertical-align:middle;
+}
+nav .secondlist {
+  margin-left:900px;
+  margin-top: 23px;
+}
+nav .secondlist ul li {
+  color: white;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+nav ul img {
+  margin-top:10px;
+  height: 30px;
+  width: 30px;
+}
+.simple {
+  margin-top: 150px;
+  position: relative;
+  width: 100%;
+  color:white;
+  text-align: center;
+}
+.whitebutton p a {
+width:150px;
+line-height:79px;
+text-align:center;
+vertical-align:middle;
+background-color: white;
+color:black;
+text-decoration:none;
+border-radius:3px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 46px;
+padding-left: 46px;
+font-size: 14px;
+color:#8080BE;
+border-color: rgb(98, 95, 145);
+border-width:1px;
+border-style: solid;
+}
+.case{
+  position: relative;
+  width: 100%;
+}
+.case .quick{
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+}
+.case .quick img {
+  width: 60px;
+  height: 60px;
+}
+
+.case .beautiful{
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+}
+.case .beautiful img {
+  width: 60px;
+  height: 60px;
+}
+.case .secure {
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+}
+.case .secure img {
+  width: 60px;
+  height: 60px;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin-top: 80px;
+}
+.princing {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+.princing p{
+  margin-left: 30px;
+}
+.per {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top:-67px;
+}
+.per .dollard {
+  color:#8080BE;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+.per .paid {
+  display: inline-block;
+  vertical-align:middle;
+}
+.per .paid p {
+  margin-top: -10px;
+  text-align: left;
+  margin-left: 10px;
+}
+.black{
+  background:rgb(60, 65, 73);
+  text-align: center;
+}
+.black p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+.bande1{
+  width: 100%;
+  position: relative;
+}
+.bande1 .left1 {
+  position: relative;
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: rgb(108, 203, 234);
+}
+.bande1 .right1 {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+  margin-right: 20px;
+  margin-bottom: 200px;
+}
+.bande1 .right1 h1{
+  font-size:30px;
+  color: #4D4D4D;
+  text-align: center;
+}
+.bande1 .right1 p{
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #6D6D6D;
+  text-align: justify;
+}
+
+
+.bande2{
+  width: 100%;
+  position: relative;
+
+}
+.bande2 .left2 {
+  position: relative;
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.bande2 .right2 {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+  /*margin-right: 20px;
+  margin-bottom: 200px;*/
+}
+.bande2 .right2 h1{
+  font-size:30px;
+  color: #4D4D4D;
+  text-align: center;
+}
+.bande2 .right2 p{
+  /*padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 30px;*/
+  font-size: 20px;
+  color: #6D6D6D;
+  text-align: justify;
+}
+.bande3{
+  width: 100%;
+  position: relative;
+}
+.bande3 .left3 {
+  position: relative;
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.bande3 .right3 {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+  /*margin-right: 20px;
+  margin-bottom: 200px;*/
+}
+.bande3 .right3 h1{
+  font-size:30px;
+  color: #4D4D4D;
+  text-align: center;
+}
+.bande3 .right3 p{
+  /*padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 30px;*/
+  font-size: 20px;
+  color: #6D6D6D;
+  text-align: justify;
+}
